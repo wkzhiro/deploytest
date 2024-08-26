@@ -1,0 +1,1 @@
+# Noratech_2ndGIG_KenQ2
