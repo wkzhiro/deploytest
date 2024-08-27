@@ -12,6 +12,8 @@ from typing import List, Optional
 import os
 from dotenv import load_dotenv
 
+#test
+
 # 環境変数をロード
 load_dotenv()
 
@@ -27,7 +29,7 @@ Base.metadata.create_all(bind=engine)
 app = FastAPI()
 
 # CORS設定
-origins = ["http://localhost:3000"]
+origins = ["*"]
 
 app.add_middleware(
     CORSMiddleware,
